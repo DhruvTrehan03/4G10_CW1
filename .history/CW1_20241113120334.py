@@ -30,8 +30,5 @@ plt.show()
 
 plt.figure
 plt.plot(times, avg_firing_rate)
-plt.axvline(0,color = 'red', linestyle = '--', label = 'Movement Offset')
-plt.xlabel('Time(ms)')
-plt.ylabel('Firing Rate (Hz)')
 plt.tight_layout()
 plt.show()
